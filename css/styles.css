@@ -1,0 +1,20 @@
+/* Definindo uma cor primária 'Faroeste' (marrom) e uma cor de destaque 'Metal' (dourado/bronze) */
+:root {
+  --color-faroeste: #5d4037; /* Marrom escuro */
+  --color-metal: #b8860b; /* Dourado/Bronze */
+  --color-background: #1c1c1c; /* Preto carvão */
+}
+.bg-faroeste {
+  background-color: var(--color-faroeste);
+}
+.text-metal {
+  color: var(--color-metal);
+}
+
+/* Estilo para a imagem de fundo do Herói (substitua a URL pela imagem real) */
+.hero-background {
+  background-image: url("caminho/para/imagem-fundo-bar.webp"); /* Imagem de alta qualidade do interior do bar */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Efeito Parallax suave */
+}
